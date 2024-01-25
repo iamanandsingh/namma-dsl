@@ -17,7 +17,7 @@ data ApiConfigs = ApiConfigs
   { inputPath :: String,
     outputPath :: String,
     enabled :: Bool,
-    uiIntegrationEnabled: Maybe Bool
+    uiIntegrationEnabled :: Maybe Bool
   }
   deriving (Generic, Show, FromDhall)
 
